@@ -1,0 +1,116 @@
+body{
+  display:block;
+  margin: 0;
+}
+footer{
+  clear: both;
+}
+/* Start Welcome Page CSS*/
+
+main {
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+
+}
+main h1 {
+  display: block;
+  position: absolute;
+  font-family: aero;
+  color: white;
+  font-size: 100px;
+  margin-left: 12%;
+  margin-top: 2%;
+  letter-spacing: 3px;
+}
+main img{
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+main nav {
+  width: 65%;
+  position: absolute;
+  margin: 113px;
+}
+main nav ul {
+  width: 100%;
+}
+main nav ul li {
+  display: inline-block;
+  padding: 1%;
+  font-family: ariel;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+main nav ul a {
+  text-decoration: none;
+  color: white;
+}
+section.about {
+  width: 100%;
+  clear: both;
+  min-height: 100vh;
+}
+section.about h2 {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+section.about p {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-size: 30px;
+
+}
+
+/* End Welcome Page CSS*/
+
+section.footer h4{
+  text-align: center;
+}
+section{
+  float: left;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+div{
+  clear: both;
+}
+section.hero nav {
+  width: 65%;
+  margin-left: 15%;
+}
+section.hero nav ul{
+  width: 100%;
+}
+section.hero nav ul li {
+  display: inline-block;
+  padding: 1%;
+}
+section.hero h1{
+  text-align: center;
+}
+section div {
+  max-height: 100vh;
+
+}
+section div img {
+  max-width: 33.3%;
+  overflow: hidden;
+  float: left;
+}
+section.hero div.info {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+}
+section.hero section.info p {
+  text-align: left;
+}
