@@ -17,7 +17,7 @@ main {
 .hero-sec {
   width: 50%;
   float: left;
-  min-height: 70vh;
+  max-height: 70vh;
   margin-left: 24%;
   text-align: -webkit-center;
 
@@ -65,13 +65,13 @@ main nav ul a {
   color: black;
 }
 main nav ul a:hover {
-  color: red;
+  color: grey;
 }
 
 section.about {
   width: 100%;
   clear: both;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 section.about h2 {
   display: block;
@@ -80,13 +80,15 @@ section.about h2 {
   text-align: center;
   padding-top: 15%;
   padding-bottom: 2%;
+  font-family: helvetica;
 }
 section.about p {
   width: 60%;
   display: block;
   margin: 0 auto;
   padding-bottom: 5%;
-  font-size: 30px;
+  font-size: 20px;
+  padding-top: 25%;
 
 }
 
@@ -133,4 +135,8 @@ section.hero div.info {
 }
 section.hero section.info p {
   text-align: left;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
 }
