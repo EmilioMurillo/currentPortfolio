@@ -38,6 +38,13 @@ main h1:hover {
   color: blue;
   cursor: crosshair;
 }
+main h1 a {
+  text-decoration: none;
+  color: black;
+}
+main h1 a:hover {
+  color: blue;
+}
 /*main img{
   display: block;
   max-width: 100%;
@@ -123,10 +130,16 @@ section div {
   max-height: 100vh;
 
 }
+.img-container {
+  width: 100%;
+  margin: 0 auto;
+}
 .img-container img {
-  max-width: 33.3%;
+  max-width: 100%;
   overflow: hidden;
-  float: left;
+  max-height: 100vh;
+  margin-left: 31%;
+  padding-top: 10%;
 }
 section.hero div.info {
   width: 70%;
