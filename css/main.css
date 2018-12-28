@@ -123,7 +123,7 @@ section div {
   max-height: 100vh;
 
 }
-section div img {
+.img-container img {
   max-width: 33.3%;
   overflow: hidden;
   float: left;
@@ -136,7 +136,35 @@ section.hero div.info {
 section.hero section.info p {
   text-align: left;
 }
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 600px) {
+  main section.hero-sec nav {
+    width: 100%;
+  }
+  .img-container img {
+    width: 100%;
+  }
 }
