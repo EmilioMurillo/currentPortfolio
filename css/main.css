@@ -179,7 +179,8 @@ section.hero section.info p {
     margin-left: -22%;
   }
   main h1 {
-    margin-left: -26%;
+    margin-left: -28%;
+    margin-top: 25vh;
   }
 
   .img-container img {
